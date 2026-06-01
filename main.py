@@ -46,7 +46,7 @@ while True:
         for msg in messages:
             print(msg)
         break
-    elif iattempt == key_int:
+    elif attempt == key_int:
         print(f"Correct! {key_int} was the correct key \nThe messages were:")
         for msg in messages:
             print(msg)
